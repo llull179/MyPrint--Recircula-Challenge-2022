@@ -18,3 +18,34 @@ span {
 }
 
 .titol {margin:35px}
+
+.premi {
+  width:40%;
+  position:relative;
+  left: 30%;
+}
+
+.textPremi {
+  position: relative;
+  left:30%;
+}
+
+.alerta {
+  padding: 2rem 5rem;
+  max-width: 60rem;
+  margin: 2rem auto 2rem auto;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.alerta.error {
+  background-color: var(--blanco);
+  border-left: 5px solid #b91c1c;
+  color: #b91c1c;
+}
+.alerta.success {
+  background-color: var(--blanco);
+  border-left: 5px solid #00ff00;
+  color: #00ff00;
+}

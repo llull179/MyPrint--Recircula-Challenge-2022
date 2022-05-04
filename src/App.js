@@ -29,7 +29,7 @@ function App() {
   return (
     <div>
         <Header greenPoints={greenPoints} theme={theme} page = {page} setPage={setPage}/>
-        {page===3 ? <MyPrint/> : page===2 ? <Bescanviar /> :
+        {page===3 ? <MyPrint/> : page===2 ? <Bescanviar greenPoints={greenPoints}  setGreenPoints={setGreenPoints}/> :
                     <IntrodCodi greenPoints={greenPoints} setGreenPoints={setGreenPoints} setPage={setPage} theme={theme}/>}
         
     </div>

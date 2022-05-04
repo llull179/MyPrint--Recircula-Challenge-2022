@@ -11,7 +11,7 @@ export default function Form(props) {
           return;
         }
         
-        props.setGreenPoints(props.greenPoints+100);
+        props.setGreenPoints(props.greenPoints+500);
         props.setError(false);
         props.setRecompensa(true);
       }
