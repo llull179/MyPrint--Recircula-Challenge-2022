@@ -5,15 +5,16 @@ import SendIcon from '@mui/icons-material/Send';
 export default function Form(props) {
     
     const handleSubmit = (e) => {
-        if(props.codi==='') {
+        if(props.codi!=='1234') {
+          props.setCodi('');
           props.setError(true);
           return;
         }
+        
+        props.setGreenPoints(props.greenPoints+100);
         props.setError(false);
         props.setRecompensa(true);
       }
-
-
   return (
     <Box > 
     <Grid alignItems='center' justifyContent='center' container spacing= {5} direction ='column'>

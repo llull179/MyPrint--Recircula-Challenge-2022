@@ -1,7 +1,13 @@
 import React from 'react'
-import { Grid, Button } from '@mui/material'
+import { Grid, Button, Stack } from '@mui/material'
 
 export default function Recompensa(props) {
+
+  const handleTornar =() =>{
+    props.setRecompensa(false)
+    props.setCodi('');
+  }
+
   return (
     <div>
     <Grid alignItems='center' justifyContent='center' container spacing= {5} direction ='column'>
@@ -15,8 +21,12 @@ export default function Recompensa(props) {
             <p>Has aconseguit <span>100</span> GreenPoihnts!</p>
         </Grid>
         <Grid item>
-            <Button theme={props.theme} color="secondary" variant ="outlined">Bescanviar premis</Button>
-            <Button theme={props.theme} color="secondary" variant ="outlined" onClick={() => props.setRecompensa(false)}>Tornar</Button>
+          <Grid item></Grid>
+          <Stack direction="row" spacing={2}>
+            <Button theme={props.theme} color="secondary" variant ="outlined" onClick={()=>props.setPage(2)}>Bescanviar premis</Button>
+            <Button theme={props.theme} color="secondary" variant ="outlined" onClick={handleTornar}>Tornar</Button>
+          </Stack>
+            
         </Grid>
     </Grid>
       
