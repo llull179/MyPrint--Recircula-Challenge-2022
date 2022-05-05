@@ -6,7 +6,7 @@ export default function MyPrint() {
   return (
     <Box> 
        <Grid alignItems='center' justifyContent='center' container spacing= {5} direction ='column'>
-         <Grid maxWidth={'md'}>
+         <Grid maxWidth={'sm'}>
            <p className={"margin"}>
            <span>MyPrint</span> arriba per capgirar el model de sistema alimentari. Per primera vegada, el comprador
             veurà com estalviar <span>CO2</span> al planeta es tradueix en recompenses directes: metro, bicing, cultura
