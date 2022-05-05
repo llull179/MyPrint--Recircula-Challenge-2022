@@ -6,7 +6,7 @@ export default function MyPrint() {
   return (
     <Box> 
        <Grid alignItems='center' justifyContent='center' container spacing= {5} direction ='column'>
-         <Grid maxWidth={'lg'}>
+         <Grid maxWidth={'md'}>
            <p>
            <span>MyPrint</span> arriba per capgirar el model de sistema alimentari. Per primera vegada, el comprador
             veurà com estalviar <span>CO2</span> al planeta es tradueix en recompenses directes: metro, bicing, cultura
@@ -19,7 +19,7 @@ export default function MyPrint() {
         <Grid item>
           <img alt ="Logo" src={Logo}/>
         </Grid>
-        <Grid item>
+        <Grid maxWidth={'md'} item>
          <i>Guillem Palmés Batlle, Lluís Llull Riera, Carlos Saura Besa, Maria Bareche Baqués i Javier Gallardo Sáenz</i>
         </Grid>
       </Grid>
