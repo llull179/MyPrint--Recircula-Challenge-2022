@@ -20,7 +20,7 @@ export default function MyPrint() {
           <img alt ="Logo" src={Logo}/>
         </Grid>
         <Grid maxWidth={'md'} item>
-         <i className={"margin"}>Guillem Palmés Batlle, Lluís Llull Riera, Carlos Saura Besa, Maria Bareche Baqués i Javier Gallardo Sáenz</i>
+         <i>Guillem Palmés Batlle, Lluís Llull Riera, Carlos Saura Besa, Maria Bareche Baqués i Javier Gallardo Sáenz</i>
         </Grid>
       </Grid>
     </Box>

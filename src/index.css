@@ -54,5 +54,6 @@ span {
 }
 
 .margin{
-  margin:20px
+  position:relative;
+  left:5%
 }
