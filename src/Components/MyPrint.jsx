@@ -7,7 +7,7 @@ export default function MyPrint() {
     <Box> 
        <Grid alignItems='center' justifyContent='center' container spacing= {5} direction ='column'>
          <Grid maxWidth={'md'}>
-           <p>
+           <p className={"margin"}>
            <span>MyPrint</span> arriba per capgirar el model de sistema alimentari. Per primera vegada, el comprador
             veurà com estalviar <span>CO2</span> al planeta es tradueix en recompenses directes: metro, bicing, cultura
              i molt més… Com funciona? En comprar producte local i ecològic, el consumidor obtindrà de la nostra
@@ -20,7 +20,7 @@ export default function MyPrint() {
           <img alt ="Logo" src={Logo}/>
         </Grid>
         <Grid maxWidth={'md'} item>
-         <i>Guillem Palmés Batlle, Lluís Llull Riera, Carlos Saura Besa, Maria Bareche Baqués i Javier Gallardo Sáenz</i>
+         <i className={"margin"}>Guillem Palmés Batlle, Lluís Llull Riera, Carlos Saura Besa, Maria Bareche Baqués i Javier Gallardo Sáenz</i>
         </Grid>
       </Grid>
     </Box>

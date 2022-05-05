@@ -43,27 +43,27 @@ export default function Bescanviar(props) {
       <Grid container spacing={2}>
         <Grid item xs={4}>
             <img onClick={handleClick}  className='premi' alt={'concert'} src={concert}/>
-            <p className='textPremi'><span>Concert</span>:200 GreenPoints</p>
+            <p className='textPremi'><span>Concert</span>: 200 GreenPoints</p>
         </Grid>
         <Grid item xs={4}>
         <img onClick={handleClick} className='premi' alt={'cine'} src={cine}/>
-            <p className='textPremi'><span>Cinema</span>:200 GreenPoints</p>
+            <p className='textPremi'><span>Cinema</span>: 200 GreenPoints</p>
         </Grid>
         <Grid item xs={4}>
           <img onClick={handleClick} className='premi' alt={'bici'} src={bici}/>
-          <p className='textPremi'><span>Bicing</span>:200 GreenPoints</p>
+          <p className='textPremi'><span>Bicing</span>: 200 GreenPoints</p>
         </Grid>
         <Grid item xs={4}>
             <img onClick={handleClick} className='premi' alt={'bus'} src={bus}/>
-            <p className='textPremi'><span>Cinema</span>:200 GreenPoints</p>
+            <p className='textPremi'><span>Cinema</span>: 200 GreenPoints</p>
         </Grid>
         <Grid item xs={4}>
         <img onClick={handleClick} className='premi' alt={'tren'} src={tren}/>
-            <p className='textPremi'><span>Tren</span>:200 GreenPoints</p>
+            <p className='textPremi'><span>Tren</span>: 200 GreenPoints</p>
         </Grid>
         <Grid item xs={4}>
           <img onClick={handleClick} className='premi' alt={'teatre'} src={teatre}/>
-            <p className='textPremi'><span>Teatre</span>:200 GreenPoints</p>
+            <p className='textPremi'><span>Teatre</span>: 200 GreenPoints</p>
         </Grid>
       </Grid>
     </Box>
