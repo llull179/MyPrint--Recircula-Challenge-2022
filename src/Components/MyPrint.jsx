@@ -20,9 +20,6 @@ export default function MyPrint() {
           <img alt ="Logo" src={Logo}/>
         </Grid>
         <Grid item>
-         <h2>VIdeo</h2>
-        </Grid>
-        <Grid item>
          <i>Guillem Palmés Batlle, Lluís Llull Riera, Carlos Saura Besa, Maria Bareche Baqués i Javier Gallardo Sáenz</i>
         </Grid>
       </Grid>

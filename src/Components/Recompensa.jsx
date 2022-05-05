@@ -17,7 +17,7 @@ export default function Recompensa(props) {
         <Grid  item>
             <h4>Enhorabona!</h4>
             <p> <span> Codi: </span> {props.codi}</p>
-            <p>Has aconseguit estalviar <span>50</span> Kg de C02 !</p>
+            <p>Has aconseguit estalviar <span>50</span> g de C02 !</p>
             <p>Has aconseguit <span>500</span> GreenPoihnts!</p>
         </Grid>
         <Grid item>

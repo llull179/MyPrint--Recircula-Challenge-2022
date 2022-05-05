@@ -20,9 +20,10 @@ export default function Form(props) {
     <Grid alignItems='center' justifyContent='center' container spacing= {5} direction ='column'>
       <Grid  item>
       <h2>Introdueix el codi del tiquet!</h2>
+      <i className={"text"}>(4 digits)</i>
       </Grid>
       <Grid item>
-        <TextField value = {props.codi} onChange={(e)=>props.setCodi(e.target.value)} error={props.error} id='codi' placeholder='Codi...' label='Introdueix Codi'/>
+        <TextField inputProps={{ maxLength: 4 }} value = {props.codi} onChange={(e)=>props.setCodi(e.target.value)} error={props.error} id='codi' placeholder='Codi...' label='Introdueix Codi'/>
         
       </Grid>
       <Grid item>
